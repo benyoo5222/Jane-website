@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700;800;900");
+
+.hero-section {
+  background-image: url("../../../public/grand-piano-small.jpg");
+  position: relative;
+}
+
+/* Hero Section Veil */
+.hero-section-veil {
+  height: 100%;
+  background-color: black;
+  opacity: 50%;
+}
+
+/* Hero Section Text */
+
+.hero-section-text-container {
+  position: absolute;
+  font-family: Poppins;
+  color: white;
+}
+
+.hero-section-text-headline {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.hero-section-text-subheadline {
+  font-weight: 400;
+}
+
+/* Media Queries */
+
+@media (max-width: 320px) {
+  .hero-section {
+    height: 340px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+
+  .hero-section-text-container {
+    top: 87px;
+    left: 44px;
+    width: 232px;
+    height: 148px;
+  }
+
+  .hero-section-text-headline {
+    font-size: 1.125rem;
+  }
+
+  .hero-section-text-subheadline {
+    font-size: 0.6875rem;
+  }
+
+  .hero-section-text-headline,
+  .hero-section-text-subheadline {
+    padding: 0;
+    text-align: center;
+  }
+
+  .action-button {
+    top: 287px;
+    left: 72px;
+    width: 177px;
+    height: 30px;
+    font-size: 0.75rem;
+  }
+}
