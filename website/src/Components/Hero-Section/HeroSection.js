@@ -18,7 +18,7 @@ const HeroSection = () => {
         </h2>
       </div>
 
-      <ActionButton />
+      <ActionButton className={"action-button-hero-section"} />
     </section>
   );
 };
