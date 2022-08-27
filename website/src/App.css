@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* Other Pages - Not Home */
+.other-pages-section {
+  position: relative;
+}
+
+/* Other Pages Section Veil */
+.other-pages-veil {
+  height: 100%;
+  background-color: black;
+  opacity: 50%;
+}
+
+/* Other pages Body */
+.other-pages-body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-pages-body-title {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+@media (max-width: 320px) {
+  .other-pages-section {
+    height: 170px;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-image: url("../public/grand-piano-small.jpg");
+    background-size: 132%;
+  }
+
+  .other-pages-body-title {
+    margin: 13px 0;
+    font-size: 0.875rem;
+    align-self: center;
+  }
+}

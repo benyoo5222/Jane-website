@@ -1,9 +1,11 @@
 import "./ActionButton.css";
+import { useNavigate } from "react-router-dom";
 
 const ActionButton = ({ className }) => {
+  const navigate = useNavigate();
+
   const handleOnClick = () => {
-    const currentURL = window.location.href;
-    window.location.href = `${currentURL}hire-jane`;
+    navigate("/hire-jane");
   };
 
   return (

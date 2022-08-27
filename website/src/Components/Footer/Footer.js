@@ -1,13 +1,14 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer-container">
       <ul className="footer-nav-container">
         <li className="footer-home-youtube-container">
-          <a href="/" className="footer-text-container footer-left-item">
+          <Link to="/" className="footer-text-container footer-left-item">
             <p className="footer-text">Home</p>
-          </a>
+          </Link>
 
           <a
             href="https://www.youtube.com/channel/UCuJ5L_jILLjCY01Yt9KQulw"
@@ -20,18 +21,18 @@ const Footer = () => {
         </li>
 
         <li className="footer-home-youtube-container">
-          <a
-            href="/hire-jane"
+          <Link
+            to="/hire-jane"
             className="footer-text-container footer-left-item"
           >
             <p className="footer-text">Hire Jane</p>
-          </a>
+          </Link>
         </li>
 
         <li className="footer-home-youtube-container">
-          <a href="/about" className="footer-text-container footer-left-item">
+          <Link to="/about" className="footer-text-container footer-left-item">
             <p className="footer-text">About</p>
-          </a>
+          </Link>
         </li>
       </ul>
 

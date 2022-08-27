@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700;800;900");
+
+/* Hire Jane Text */
+.hire-jane-text-container {
+  position: absolute;
+  font-family: Poppins;
+  color: white;
+}
+
+.hire-jane-text-headline {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 320px) {
+  .hire-jane-text-container {
+    top: 85px;
+    left: 44px;
+    width: 232px;
+    height: 27px;
+  }
+
+  .hire-jane-text-headline {
+    font-size: 1.125rem;
+    padding: 0;
+    text-align: center;
+  }
+}
