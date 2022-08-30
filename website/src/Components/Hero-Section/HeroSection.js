@@ -2,11 +2,11 @@ import "./HeroSection.css";
 import Navigation from "../Navigation/Navigation";
 import ActionButton from "../Action-Button/ActionButton";
 
-const HeroSection = () => {
+const HeroSection = ({ handleMenu }) => {
   return (
     <section className="hero-section">
       <div className="hero-section-veil"></div>
-      <Navigation />
+      <Navigation handleMenu={handleMenu} />
 
       <div className="hero-section-text-container">
         <h1 className="hero-section-text-headline">

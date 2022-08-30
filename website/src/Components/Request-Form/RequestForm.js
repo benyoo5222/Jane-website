@@ -1,15 +1,26 @@
 import "./RequestForm.css";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+import { useState } from "react";
 
 const RequestForm = () => {
+  const [radioButtonLiveValue, setRadioButtonLiveValue] = useState(false);
+  const [radioButtonOnlineValue, setRadioButtonOnlineValue] = useState(false);
+
+  const handleRadioButtonSelection = (event) => {
+    const setter =
+      event.target.value === "live"
+        ? setRadioButtonLiveValue
+        : setRadioButtonOnlineValue;
+
+    setter((previousValue) => !previousValue);
+  };
+
   const createField = ({ titleOfField, type }, index) => {
     switch (type) {
       case "date":
         return (
           <div className="field-container" key={index}>
             <label className="field-label">{titleOfField}</label>
-            <DatePicker showTimeSelect />
+            <input type="date" />
           </div>
         );
       case "liveOrOnline":
@@ -17,8 +28,29 @@ const RequestForm = () => {
           <div className="field-container" key={index}>
             <label className="field-label">{titleOfField}</label>
             <div className="radio-button-container">
-              <input className="radio-button" type="radio" />
-              <input className="radio-button" type="radio" />
+              <div className="radio-selection-container">
+                <input
+                  className="radio-button"
+                  type="checkbox"
+                  checked={radioButtonLiveValue}
+                  value="live"
+                  onChange={handleRadioButtonSelection}
+                  name="live"
+                />
+                <label className="radio-button-label">Live</label>
+              </div>
+
+              <div className="radio-selection-container">
+                <input
+                  className="radio-button"
+                  type="checkbox"
+                  checked={radioButtonOnlineValue}
+                  value="online"
+                  onChange={handleRadioButtonSelection}
+                  name="online"
+                />
+                <label className="radio-button-label">Online</label>
+              </div>
             </div>
           </div>
         );
@@ -54,7 +86,21 @@ const RequestForm = () => {
           ].map((title, index) => createField(title, index))}
         </section>
 
-        <section className="request-form-detail-container">Test</section>
+        <section className="request-form-detail-container request-top-space">
+          <p className="request-form-detail">
+            If you are looking for a great musician that can entertain and
+            perform for your retirement home, we look forward to sharing Jane’s
+            music with you! Jane can currently perform live in the
+            Kitchener-Waterloo region. For Online, she can work with anyone in
+            Canada. See You Soon!
+          </p>
+
+          <img
+            alt="Person holding a bouquet of flowers"
+            src="/wedding-table.jpg"
+            className="request-detail-picture"
+          />
+        </section>
       </div>
     </main>
   );

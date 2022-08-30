@@ -28,12 +28,6 @@ const Footer = () => {
             <p className="footer-text">Hire Jane</p>
           </Link>
         </li>
-
-        <li className="footer-home-youtube-container">
-          <Link to="/about" className="footer-text-container footer-left-item">
-            <p className="footer-text">About</p>
-          </Link>
-        </li>
       </ul>
 
       <div className="footer-credit-container">

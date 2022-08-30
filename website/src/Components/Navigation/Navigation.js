@@ -2,7 +2,7 @@ import "./Navigation.css";
 import { ReactComponent as Icon } from "./menu.svg";
 import { Link } from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = ({ handleMenu }) => {
   return (
     <div className="navigation">
       <header className="navigation-logo-section">
@@ -22,7 +22,7 @@ const Navigation = () => {
       </header>
 
       <div className="navigation-menu">
-        <Icon className="navigation-hamburger-menu" />
+        <Icon className="navigation-hamburger-menu" onClick={handleMenu} />
       </div>
     </div>
   );
