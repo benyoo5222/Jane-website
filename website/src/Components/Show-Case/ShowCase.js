@@ -168,7 +168,10 @@ const ShowCase = () => {
         </section>
       </div>
 
-      <ActionButton className={"action-button-showcase"} />
+      <ActionButton
+        buttonText={"Hire Jane for Your Event!"}
+        className={"action-button-showcase"}
+      />
     </main>
   );
 };

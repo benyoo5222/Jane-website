@@ -13,12 +13,15 @@ const HeroSection = ({ handleMenu }) => {
           Lover of Music with 20+ years of experience in Piano & Singing
         </h1>
         <h2 className="hero-section-text-subheadline">
-          If you are looking for a musician for your nursing home, church, or
-          for a live/online event, reach out to Jane Today!
+          If you are looking to entertain your members at your nursing home or
+          at your long term care facility, book Jane today!
         </h2>
       </div>
 
-      <ActionButton className={"action-button-hero-section"} />
+      <ActionButton
+        buttonText={"Hire Jane for Your Event!"}
+        className={"action-button-hero-section"}
+      />
     </section>
   );
 };

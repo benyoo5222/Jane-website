@@ -1,7 +1,7 @@
 import "./ActionButton.css";
 import { useNavigate } from "react-router-dom";
 
-const ActionButton = ({ className }) => {
+const ActionButton = ({ className, buttonText }) => {
   const navigate = useNavigate();
 
   const handleOnClick = () => {
@@ -10,7 +10,7 @@ const ActionButton = ({ className }) => {
 
   return (
     <button className={`action-button ${className}`} onClick={handleOnClick}>
-      Hire Jane for Your Event!
+      {buttonText}
     </button>
   );
 };
