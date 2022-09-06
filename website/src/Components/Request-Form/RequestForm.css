@@ -18,6 +18,11 @@
   font-weight: 400;
 }
 
+.field-input-textarea {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
 .radio-button-container {
   display: flex;
   justify-content: space-between;
@@ -46,6 +51,10 @@
   font-weight: 400;
   box-sizing: border-box;
   margin: 0;
+}
+
+.required-field {
+  border-color: red;
 }
 
 .request-form-submit-button {
@@ -91,6 +100,10 @@
 
   .field-input {
     height: 24px;
+  }
+
+  .field-input-textarea {
+    font-size: 0.75rem;
   }
 
   .radio-button-label {
