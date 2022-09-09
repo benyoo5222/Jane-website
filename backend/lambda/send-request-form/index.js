@@ -20,7 +20,9 @@ exports.handler = async (event) => {
       headers: {
         "Access-Control-Allow-Origin": allowedOrigin,
       },
-      message: "This origin is not allowed to access this API",
+      body: JSON.stringify({
+        message: "This origin is not allowed to access this API",
+      }),
     };
   }
 
@@ -33,12 +35,14 @@ exports.handler = async (event) => {
       headers: {
         "Access-Control-Allow-Origin": allowedOrigin,
       },
-      message: "Please provide an email and a business name",
+      body: JSON.stringify({
+        message: "Please provide an email and a business name",
+      }),
     };
   }
 
   try {
-    const message = `Business Name: ${parsedRequestFormInfo.businessName}\nEmail: ${parsedRequestFormInfo.email}\nRequest Details: ${parsedRequestFormInfo.requestDetails}\nDate: ${parsedRequestFormInfo.dateSelected}`;
+    const message = `Business Name: ${parsedRequestFormInfo.businessName}\nEmail: ${parsedRequestFormInfo.email}\nRequest Details: ${parsedRequestFormInfo.requestDetails}\nDate: ${parsedRequestFormInfo.dateSelected}\nLive: ${parsedRequestFormInfo.live}\nOnline: ${parsedRequestFormInfo.online}`;
     const resultFromPublishingMessage = await sns
       .publish(buildPublishParams(message, parsedRequestFormInfo.businessName))
       .promise();
@@ -49,7 +53,7 @@ exports.handler = async (event) => {
       headers: {
         "Access-Control-Allow-Origin": allowedOrigin,
       },
-      message: "Succesfully sent email",
+      body: JSON.stringify({ message: "Succesfully sent email" }),
     };
   } catch (err) {
     console.log("Error with publishing message to Topic", err);
@@ -58,7 +62,7 @@ exports.handler = async (event) => {
       headers: {
         "Access-Control-Allow-Origin": allowedOrigin,
       },
-      message: err,
+      body: JSON.stringify({ message: err }),
     };
   }
 };
