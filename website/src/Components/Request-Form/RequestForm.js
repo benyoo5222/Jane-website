@@ -168,6 +168,8 @@ const RequestForm = () => {
           email,
           requestDetails,
           dateSelected,
+          online: radioButtonOnlineValue,
+          live: radioButtonLiveValue,
         },
         { headers: headers }
       );
@@ -178,6 +180,20 @@ const RequestForm = () => {
       toast.success(
         "Your request has successfully been submitted! Due to higher than expected demand, it might take a little longer than expected to respond but Jane will get back to your as soon as possible, thank you!"
       );
+
+      setBusinessName("");
+      setEmail("");
+      const newDateObject = new Date();
+      setCurrentDateObject(newDateObject);
+      setDateSelected(
+        `${newDateObject.getFullYear()}-${`0${
+          newDateObject.getMonth() + 1
+        }`.slice(-2)}-${`0${newDateObject.getDate()}`.slice(-2)}`
+      );
+
+      setRequestDetails("");
+      setRadioButtonLiveValue(false);
+      setRadioButtonOnlineValue(false);
     } catch (error) {
       console.log("Error sending form to API", error);
       setWaitingForSubmit(false);
@@ -256,6 +272,7 @@ const RequestForm = () => {
                 warningClass ? "required-field" : ""
               }`}
               type="text"
+              value={value}
               onChange={handleTextChange}
             />
           </div>
@@ -269,6 +286,7 @@ const RequestForm = () => {
               type="text"
               onChange={handleTextChange}
               name={name}
+              value={value}
             />
           </div>
         );
