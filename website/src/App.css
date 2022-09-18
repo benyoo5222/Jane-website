@@ -106,15 +106,15 @@
 @media (min-width: 321px) and (max-width: 500px) {
   .other-pages-section {
     height: 170px;
-    background-position: center 100%;
+    background-position: center 80%;
     background-repeat: no-repeat;
     background-image: url("../public/grand-piano-small.jpg");
     background-size: 132%;
   }
 
   .other-pages-body-title {
-    margin: 13px 0;
-    font-size: 0.875rem;
+    margin: 15px 0;
+    font-size: 1.125rem;
     align-self: center;
   }
 

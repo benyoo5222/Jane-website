@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700;800;900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900");
 
 .request-form-section-container {
   display: flex;
@@ -48,9 +48,11 @@
 
 .request-form-detail {
   font-family: Poppins;
-  font-weight: 400;
+  font-weight: 200;
   box-sizing: border-box;
   margin: 0;
+  display: inline-block;
+  vertical-align: text-top;
 }
 
 .required-field {
@@ -95,7 +97,7 @@
 
   .field-label,
   .radio-button-label {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
 
   .field-input {
@@ -107,34 +109,35 @@
   }
 
   .field-input-textarea {
-    height: 118px;
+    height: 163px;
     resize: none;
   }
 
   .request-form-detail-container {
     width: 50%;
     padding: 0 10px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .request-top-space {
     margin-top: 2px;
   }
 
-  .request-form-detail {
-    font-size: 0.6875rem;
-    display: inline-block;
-    vertical-align: text-top;
+  .request-form-detail-text {
+    display: block;
   }
 
   .request-detail-picture {
     width: 100%;
-    height: 124px;
     object-fit: cover;
     margin-top: 7px;
+    flex: 1;
   }
 
   .request-form-submit-button {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     height: 30px;
     margin-top: 10px;
   }
@@ -143,6 +146,41 @@
     font-size: 0.75rem;
     height: 30px;
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 416px) and (max-width: 500px) {
+  .request-form-detail {
+    font-size: 0.875rem;
+  }
+
+  .request-form-detail-text {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 365px) and (max-width: 415px) {
+  .request-form-detail {
+    font-size: 0.8rem;
+  }
+
+  .request-form-detail-text {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 365px) {
+  .field-label,
+  .radio-button-label {
+    font-size: 0.75rem;
+  }
+
+  .request-form-detail {
+    font-size: 0.75rem;
+  }
+
+  .request-form-detail-text {
+    margin-top: 0.5rem;
   }
 }
 
