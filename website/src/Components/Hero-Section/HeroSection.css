@@ -12,7 +12,6 @@
 }
 
 /* Hero Section Text */
-
 .hero-section-text-container {
   position: absolute;
   font-family: Poppins;
@@ -29,6 +28,49 @@
 }
 
 /* Media Queries */
+@media (min-width: 321px) and (max-width: 500px) {
+  .hero-section {
+    height: 390px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/grand-piano-small.jpg");
+  }
+
+  .hero-section-text-container {
+    top: 87px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section-text-headline {
+    font-size: 1.25rem;
+  }
+
+  .hero-section-text-subheadline {
+    font-size: 0.75rem;
+  }
+
+  .hero-section-text-headline,
+  .hero-section-text-subheadline {
+    padding: 0;
+    text-align: center;
+  }
+
+  .action-button-hero-section {
+    bottom: 40px;
+    width: 225px;
+    height: 36px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-size: 0.875rem;
+  }
+}
 
 @media (max-width: 320px) {
   .hero-section {

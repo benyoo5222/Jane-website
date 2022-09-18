@@ -70,6 +70,73 @@
   background-color: #a85b32;
 }
 
+@media (min-width: 321px) and (max-width: 500px) {
+  .request-form-section-container {
+    margin-bottom: 16px;
+  }
+
+  .request-form-field-section {
+    padding: 0 5px 10px 10px;
+    width: 50%;
+  }
+
+  .field-container {
+    margin-bottom: 6px;
+  }
+
+  .field-label,
+  .radio-button-label {
+    font-size: 0.75rem;
+  }
+
+  .field-input {
+    height: 24px;
+  }
+
+  .radio-button-label {
+    margin-left: 3px;
+  }
+
+  .field-input-textarea {
+    height: 118px;
+    resize: none;
+  }
+
+  .request-form-detail-container {
+    width: 50%;
+    padding: 0 10px 10px 5px;
+  }
+
+  .request-top-space {
+    margin-top: 2px;
+  }
+
+  .request-form-detail {
+    font-size: 0.6875rem;
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
+  .request-detail-picture {
+    width: 100%;
+    height: 124px;
+    object-fit: cover;
+    margin-top: 7px;
+  }
+
+  .request-form-submit-button {
+    font-size: 0.75rem;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .request-form-submit-button-disabled {
+    font-size: 0.75rem;
+    height: 30px;
+    margin-top: 10px;
+  }
+}
+
 @media (max-width: 320px) {
   .request-form-section-container {
     margin-bottom: 16px;

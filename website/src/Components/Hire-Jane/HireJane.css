@@ -13,6 +13,21 @@
 }
 
 /* Media Queries */
+@media (min-width: 321px) and (max-width: 500px) {
+  .hire-jane-text-container {
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hire-jane-text-headline {
+    font-size: 1.375rem;
+    padding: 0;
+    text-align: center;
+  }
+}
 
 @media (max-width: 320px) {
   .hire-jane-text-container {

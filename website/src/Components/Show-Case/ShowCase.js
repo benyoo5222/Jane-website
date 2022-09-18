@@ -60,7 +60,12 @@ const ShowCase = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4 className="showcase-work-title">Classical Music Playlist</h4>
+              <h4 className="showcase-work-title">
+                Classical Music{" "}
+                <span className="show-case-work-title-extra-text">
+                  Playlist
+                </span>
+              </h4>
             </a>
 
             <h5 className="showcase-work-sub-title">Light Classicals</h5>
@@ -92,7 +97,12 @@ const ShowCase = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4 className="showcase-work-title">Wedding Music Playlist</h4>
+              <h4 className="showcase-work-title">
+                Wedding Music{" "}
+                <span className="show-case-work-title-extra-text">
+                  Playlist
+                </span>
+              </h4>
             </a>
 
             <h5 className="showcase-work-sub-title">Traditional Songs</h5>
