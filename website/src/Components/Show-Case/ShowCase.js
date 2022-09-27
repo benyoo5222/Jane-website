@@ -6,8 +6,16 @@ const ShowCase = () => {
     <main className="showcase-container">
       <h3 className="showcase-title">Jane's Work</h3>
 
+      <div className="showcase-larger-main-container">
+        <iframe
+          title="Jane's most viewed video - Here Comes the Bride"
+          src="https://www.youtube.com/embed/oRQBDYv2ll8"
+          className="showcase-main-video"
+        ></iframe>
+      </div>
+
       <div className="showcase-work-container">
-        <section className="showcase-work-picture-text-container">
+        <section className="showcase-work-picture-text-container show-case-most-viewed-container">
           <a
             href="https://www.youtube.com/watch?v=oRQBDYv2ll8"
             target="_blank"
@@ -54,7 +62,7 @@ const ShowCase = () => {
             />
           </a>
 
-          <article className="showcase-work-text-container">
+          <article className="showcase-work-text-container2">
             <a
               href="https://www.youtube.com/watch?v=Ld48wL88BvY&list=PLHoveutO9DW2wtkLkU4teGlQu8kvAuIIV"
               target="_blank"
@@ -128,7 +136,7 @@ const ShowCase = () => {
             />
           </a>
 
-          <article className="showcase-work-text-container">
+          <article className="showcase-work-text-container2">
             <a
               href="https://www.youtube.com/watch?v=N4XnZmdc7W0&list=PLHoveutO9DW164nyhmogS-MJNuCZ0s48E"
               target="_blank"

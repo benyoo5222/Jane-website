@@ -320,7 +320,6 @@ const RequestForm = () => {
               value: dateSelected,
               warningClass: dateSelectedFieldWarning,
             },
-            { titleOfField: "Live/ Online", type: "liveOrOnline" },
             {
               titleOfField: "Request Details*",
               type: "textArea",

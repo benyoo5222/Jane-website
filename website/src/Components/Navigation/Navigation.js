@@ -1,8 +1,10 @@
 import "./Navigation.css";
 import { ReactComponent as Icon } from "./menu.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navigation = ({ handleMenu }) => {
+  const location = useLocation();
+  console.log(location);
   return (
     <div className="navigation">
       <header className="navigation-logo-section">
@@ -23,6 +25,28 @@ const Navigation = ({ handleMenu }) => {
 
       <div className="navigation-menu">
         <Icon className="navigation-hamburger-menu" onClick={handleMenu} />
+      </div>
+
+      <div className="navigation-larger-display-menu">
+        <div
+          className={`navigation-larger-display-home ${
+            location.pathname === "/" ? "active" : null
+          }`}
+        >
+          <Link to="/" className={`remove-text-decoration`}>
+            <p className={`navigation-larger-display-text`}>Home</p>
+          </Link>
+        </div>
+
+        <div
+          className={`navigation-larger-display-hire ${
+            location.pathname === "/hire-jane" ? "active nav-space-right" : null
+          }`}
+        >
+          <Link to="/hire-jane" className={`remove-text-decoration`}>
+            <p className={`navigation-larger-display-text `}>Hire Jane</p>
+          </Link>
+        </div>
       </div>
     </div>
   );

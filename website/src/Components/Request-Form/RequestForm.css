@@ -81,18 +81,19 @@
   background-color: #a85b32;
 }
 
-@media (min-width: 321px) and (max-width: 500px) {
+@media (min-width: 321px) and (max-width: 1000px) {
   .request-form-section-container {
     margin-bottom: 16px;
+    margin: 0 15px 16px 15px;
   }
 
   .request-form-field-section {
-    padding: 0 5px 10px 10px;
+    padding: 0 10px 10px 0;
     width: 50%;
   }
 
   .field-container {
-    margin-bottom: 6px;
+    margin-bottom: 1rem;
   }
 
   .field-label,
@@ -100,8 +101,12 @@
     font-size: 0.875rem;
   }
 
+  .field-label {
+    margin-bottom: 5px;
+  }
+
   .field-input {
-    height: 24px;
+    height: 1.75rem;
   }
 
   .radio-button-label {
@@ -109,13 +114,13 @@
   }
 
   .field-input-textarea {
-    height: 163px;
+    height: 230px;
     resize: none;
   }
 
   .request-form-detail-container {
     width: 50%;
-    padding: 0 10px 10px 5px;
+    padding: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -147,9 +152,23 @@
     height: 30px;
     margin-top: 10px;
   }
+
+  .request-form-detail-text {
+    margin-top: 1rem;
+  }
 }
 
-@media (min-width: 416px) and (max-width: 500px) {
+@media (min-width: 321px) and (max-width: 500px) {
+  .request-form-field-section {
+    padding: 0 5px 10px 0;
+  }
+
+  .request-form-detail-container {
+    padding: 0 0 10px 5px;
+  }
+}
+
+@media (min-width: 416px) and (max-width: 700px) {
   .request-form-detail {
     font-size: 0.875rem;
   }

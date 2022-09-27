@@ -13,13 +13,13 @@
 }
 
 /* Media Queries */
-@media (min-width: 321px) and (max-width: 500px) {
+@media (min-width: 321px) and (max-width: 1000px) {
   .hire-jane-text-container {
-    top: 85px;
+    top: 50%;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: 0;
+    margin: auto;
   }
 
   .hire-jane-text-headline {
