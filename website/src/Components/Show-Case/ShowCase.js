@@ -4,12 +4,12 @@ import ActionButton from "../Action-Button/ActionButton";
 const ShowCase = () => {
   return (
     <main className="showcase-container">
-      <h3 className="showcase-title">Jane's Work</h3>
+      <h3 className="showcase-title">Jane's Playlists/Performances</h3>
 
       <div className="showcase-larger-main-container">
         <iframe
           title="Jane's most viewed video - Here Comes the Bride"
-          src="https://www.youtube.com/embed/oRQBDYv2ll8"
+          src="https://www.youtube.com/embed/s1J9HjK6Bzs"
           className="showcase-main-video"
         ></iframe>
       </div>
@@ -57,7 +57,7 @@ const ShowCase = () => {
           >
             <img
               alt="A tree with lights"
-              src="/tree-lights.jpg"
+              src="/tree-lights-large.jpg"
               className="showcase-work-image2"
             />
           </a>
@@ -94,7 +94,7 @@ const ShowCase = () => {
           >
             <img
               alt="A man and a woman's hands in a wedding"
-              src="/wedding.jpg"
+              src="/wedding-large.jpg"
               className="showcase-work-image"
             />
           </a>
@@ -131,7 +131,7 @@ const ShowCase = () => {
           >
             <img
               alt="Pink flower beside a bible"
-              src="/bible.jpg"
+              src="/bible-large.jpg"
               className="showcase-work-image2"
             />
           </a>
@@ -163,7 +163,7 @@ const ShowCase = () => {
           >
             <img
               alt="Tulip flowers"
-              src="/lily.jpg"
+              src="/lily-large.jpg"
               className="showcase-work-image"
             />
           </a>

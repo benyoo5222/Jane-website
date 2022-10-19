@@ -60,6 +60,62 @@
 }
 
 /* Media Queries  */
+@media (min-width: 1001px) {
+  .navigation {
+    top: 40px;
+  }
+
+  .navigation-logo-section {
+    flex: 4;
+  }
+
+  .navigation-menu {
+    display: none;
+  }
+
+  .navigation-larger-display-menu {
+    font-family: Poppins;
+    display: flex;
+    font-size: 1rem;
+    align-self: center;
+    margin-right: 25px;
+  }
+
+  .navigation-larger-display-text {
+    color: white;
+    margin: 0;
+  }
+
+  .navigation-larger-display-hire,
+  .navigation-larger-display-home {
+    padding: 10px 15px;
+    white-space: nowrap;
+  }
+
+  .music-note {
+    margin-left: 40px;
+  }
+
+  .logo-text-container {
+    font-size: 1.25rem;
+    margin-left: 5px;
+    white-space: nowrap;
+    vertical-align: revert;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-text {
+    display: inline-block;
+    margin-right: 0.3125rem;
+    line-height: 0;
+  }
+
+  .navigation-hamburger-menu {
+    margin-right: 20px;
+  }
+}
+
 @media (min-width: 501px) and (max-width: 1000px) {
   .navigation {
     top: 10px;

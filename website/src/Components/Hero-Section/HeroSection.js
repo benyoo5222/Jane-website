@@ -22,6 +22,21 @@ const HeroSection = ({ handleMenu }) => {
         buttonText={"Hire Jane for Your Event!"}
         className={"action-button-hero-section"}
       />
+
+      <div className="hero-section-text-button-container-large-display">
+        <h1 className="hero-section-text-headline-large-display">
+          Lover of Music with 20+ years of experience in Piano & Singing
+        </h1>
+        <h2 className="hero-section-text-subheadline-large-display">
+          If you are looking to entertain your members at your nursing home or
+          at your long term care facility, book Jane today!
+        </h2>
+
+        <ActionButton
+          buttonText={"Hire Jane for Your Event!"}
+          className={"action-button-hero-section-large-display"}
+        />
+      </div>
     </section>
   );
 };

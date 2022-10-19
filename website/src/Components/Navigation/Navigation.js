@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navigation = ({ handleMenu }) => {
   const location = useLocation();
-  console.log(location);
   return (
     <div className="navigation">
       <header className="navigation-logo-section">

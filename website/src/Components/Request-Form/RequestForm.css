@@ -81,7 +81,84 @@
   background-color: #a85b32;
 }
 
-@media (min-width: 321px) and (max-width: 1000px) {
+@media (min-width: 700px) {
+  .request-form-section-container {
+    margin-bottom: 16px;
+    margin: 0 5% 5% 5%;
+  }
+
+  .request-form-field-section {
+    padding: 0 10px 10px 0;
+    width: 50%;
+  }
+
+  .field-container {
+    margin-bottom: 1rem;
+  }
+
+  .field-label,
+  .radio-button-label {
+    font-size: 0.875rem;
+  }
+
+  .field-label {
+    margin-bottom: 5px;
+  }
+
+  .field-input {
+    height: 1.75rem;
+  }
+
+  .radio-button-label {
+    margin-left: 3px;
+  }
+
+  .field-input-textarea {
+    height: 400px;
+    resize: none;
+  }
+
+  .request-form-detail-container {
+    width: 50%;
+    padding: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .request-top-space {
+    margin-top: 2px;
+  }
+
+  .request-form-detail-text {
+    display: block;
+  }
+
+  .request-detail-picture {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 7px;
+    flex: 1;
+  }
+
+  .request-form-submit-button {
+    font-size: 0.875rem;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .request-form-submit-button-disabled {
+    font-size: 0.75rem;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .request-form-detail-text {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 699px) {
   .request-form-section-container {
     margin-bottom: 16px;
     margin: 0 15px 16px 15px;
