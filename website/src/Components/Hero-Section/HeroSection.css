@@ -44,9 +44,9 @@
   .hero-section {
     background-repeat: no-repeat;
     background-image: url("../../../public/grand-piano.jpg");
-    height: 985px;
-    background-position: 9% 90%;
-    background-size: 141%;
+    height: 100vh;
+    background-position: 1% 90%;
+    background-size: 128%;
   }
 
   .hero-section-text-container {
@@ -56,9 +56,9 @@
   .hero-section-text-button-container-large-display {
     display: flex;
     flex-direction: column;
-    top: 30%;
-    width: 28%;
-    left: 10%;
+    top: 28%;
+    width: 30%;
+    left: 5%;
   }
 
   .hero-section-text-subheadline {
@@ -95,7 +95,7 @@
   }
 
   .action-button-hero-section-large-display {
-    height: 42px;
+    height: 50px;
     font-size: 1.25rem;
     width: 95%;
   }
@@ -105,17 +105,38 @@
   .hero-section {
     background-repeat: no-repeat;
     background-image: url("../../../public/grand-piano.jpg");
-    height: 985px;
+    height: 100vh;
     background-position: 8% 100%;
-    background-size: 140%;
+    background-size: 135%;
   }
 
   .hero-section-text-button-container-large-display {
     display: flex;
     flex-direction: column;
-    top: 35%;
-    width: 29%;
-    left: 8%;
+    top: 28%;
+    width: 30%;
+    left: 5%;
+  }
+
+  .hero-section-text-headline-large-display {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: Poppins;
+    margin: 0 0 5% 0;
+  }
+
+  .hero-section-text-subheadline-large-display {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #e2e2e2;
+    margin: 0;
+    margin-bottom: 15%;
+  }
+
+  .action-button-hero-section-large-display {
+    height: 50px;
+    font-size: 1.1rem;
+    width: 95%;
   }
 }
 
@@ -276,10 +297,12 @@
 
   .hero-section-text-headline {
     font-size: 1.25rem;
+    font-weight: 900;
   }
 
   .hero-section-text-subheadline {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
+    color: #e2e2e2;
   }
 
   .hero-section-text-headline,
@@ -322,6 +345,7 @@
 
   .hero-section-text-subheadline {
     font-size: 0.6875rem;
+    color: #e2e2e2;
   }
 
   .hero-section-text-headline,

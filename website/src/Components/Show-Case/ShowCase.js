@@ -154,7 +154,7 @@ const ShowCase = () => {
           </article>
         </section>
 
-        <section className="showcase-work-picture-text-container">
+        <section className="showcase-work-picture-text-container last-showcase-container">
           <a
             href="https://www.youtube.com/watch?v=s1J9HjK6Bzs&list=PLHoveutO9DW0gg3MntQIqqv-6iLb7q3DL"
             target="_blank"
