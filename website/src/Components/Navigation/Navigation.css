@@ -55,6 +55,11 @@
 .active {
   background-color: #f4732f;
 }
+
+.active:hover {
+  background-color: #b16034;
+}
+
 .nav-space-right {
   margin-right: 15px;
 }

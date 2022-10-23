@@ -221,7 +221,7 @@ const RequestForm = () => {
           <div className="field-container" key={index}>
             <label className="field-label">{titleOfField}</label>
             <input
-              className={warningClass ? "required-field" : ""}
+              className={`request-date ${warningClass ? "required-field" : ""}`}
               type="date"
               value={value}
               onChange={handleDateChange}
@@ -265,7 +265,10 @@ const RequestForm = () => {
         );
       case "textArea":
         return (
-          <div className="field-container" key={index}>
+          <div
+            className="field-container request-details-container"
+            key={index}
+          >
             <label className="field-label">{titleOfField}</label>
             <textarea
               className={`field-input-textarea ${

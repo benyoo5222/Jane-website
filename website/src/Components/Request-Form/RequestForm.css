@@ -18,6 +18,10 @@
   font-weight: 400;
 }
 
+.field-input {
+  padding: 5px;
+}
+
 .field-input-textarea {
   font-family: Poppins;
   font-weight: 400;
@@ -68,6 +72,10 @@
   font-family: Poppins;
 }
 
+.request-form-submit-button:hover {
+  background-color: #b16034;
+}
+
 .request-form-submit-button-disabled {
   width: 100%;
   background-color: #747474;
@@ -81,7 +89,106 @@
   background-color: #a85b32;
 }
 
-@media (min-width: 700px) {
+.request-date {
+  font-family: Poppins;
+}
+
+@media (min-width: 1050px) {
+  .request-form-section-container {
+    margin-bottom: 16px;
+    margin: 0 5% 5% 5%;
+  }
+
+  .request-form-field-section {
+    margin-right: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .field-container {
+    margin-bottom: 1rem;
+  }
+
+  .field-label,
+  .radio-button-label {
+    font-size: 1rem;
+  }
+
+  .field-label {
+    margin-bottom: 5px;
+  }
+
+  .field-input {
+    height: 1.75rem;
+    font-size: 1rem;
+    height: 32px;
+  }
+
+  .request-date {
+    font-size: 1rem;
+    height: 32px;
+  }
+
+  .radio-button-label {
+    margin-left: 3px;
+  }
+
+  .field-input-textarea {
+    resize: none;
+    font-size: 1rem;
+    flex: 1;
+    min-height: 400px;
+  }
+
+  .request-details-container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+  }
+
+  .request-form-detail-container {
+    width: 50%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .request-top-space {
+    margin-top: 2px;
+  }
+
+  .request-form-detail-text {
+    display: block;
+  }
+
+  .request-detail-picture {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2.5rem;
+    flex: 1;
+  }
+
+  .request-form-submit-button {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .request-form-submit-button-disabled {
+    font-size: 0.75rem;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .request-form-detail-text {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1049px) {
   .request-form-section-container {
     margin-bottom: 16px;
     margin: 0 5% 5% 5%;
@@ -102,7 +209,13 @@
   }
 
   .field-label {
+    font-size: 0.875rem;
     margin-bottom: 5px;
+  }
+
+  .request-date {
+    font-size: 0.875rem;
+    height: 32px;
   }
 
   .field-input {
@@ -114,6 +227,7 @@
   }
 
   .field-input-textarea {
+    font-size: 0.875rem;
     height: 400px;
     resize: none;
   }
@@ -182,8 +296,14 @@
     margin-bottom: 5px;
   }
 
+  .request-date {
+    font-size: 0.875rem;
+    height: 32px;
+  }
+
   .field-input {
     height: 1.75rem;
+    font-size: 0.875rem;
   }
 
   .radio-button-label {
@@ -191,6 +311,7 @@
   }
 
   .field-input-textarea {
+    font-size: 0.875rem;
     height: 230px;
     resize: none;
   }

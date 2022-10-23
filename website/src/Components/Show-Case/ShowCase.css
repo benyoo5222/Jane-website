@@ -148,15 +148,16 @@
   .showcase-work-title {
     font-size: 1.25rem;
     line-height: 75%;
+    margin-bottom: 1rem;
   }
 
   .showcase-work-sub-title {
-    font-size: 1rem;
-    margin-bottom: 2px;
+    display: none;
   }
 
   .showcase-work-description {
-    font-size: 0.875rem;
+    font-size: 1rem;
+    color: #5e5e5e;
   }
 
   .action-button-showcase {

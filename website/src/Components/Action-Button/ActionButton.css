@@ -7,4 +7,9 @@
   padding: 0;
   font-family: Poppins;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #b16034;
 }
