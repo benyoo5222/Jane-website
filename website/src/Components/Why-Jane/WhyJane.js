@@ -55,12 +55,13 @@ const WhyJane = () => {
             a day for Susan, while making sure everyone can do the exercise.
           </p>
           <p>
-            Keeping track of activities that the seniors liked and didn't like,
-            but also worrying that they will get bored of bingo soon.
+            You are researching for hours and hours for new activities because
+            there is a voice at the back of your head whispering that the
+            residents will get tired of bingo soon.
           </p>
           <p>
-            Researching hours and hours for fun, yet challenging (enough) games
-            to stimulate the brain for better memory.
+            What's even more time consuming is the fact that you are studying
+            what health benefits will this activity have for your residents.
           </p>
           <p>All the while, Peter is throwing a fit again...</p>
           <p>
