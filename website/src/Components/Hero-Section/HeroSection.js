@@ -28,8 +28,8 @@ const HeroSection = ({ handleMenu }) => {
           Lover of Music with 40+ years of experience in Piano & Singing
         </h1>
         <h2 className="hero-section-text-subheadline-large-display">
-          If you are looking to entertain your residents at your nursing home or
-          at your retirement home, book Jane today!
+          If you are looking to entertain your residents at your retirement
+          home, book Jane today!
         </h2>
 
         <ActionButton

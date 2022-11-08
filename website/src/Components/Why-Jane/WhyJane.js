@@ -52,18 +52,19 @@ const WhyJane = () => {
           <p>
             You (activity/recreational therapy directors) are constantly
             thinking about how to incorporate 30 minutes of physical activities
-            a day for Susan, while making sure everyone can do the exercise.
+            a day for Susan, while making sure everyone else can do the
+            exercise.
           </p>
           <p>
-            You are researching for hours and hours for new activities because
-            there is a voice at the back of your head whispering that the
-            residents will get tired of bingo soon.
+            You research for hours and hours for new activities because there is
+            a voice at the back of your head, whispering, that the residents
+            will get sick of bingo soon. (You might be sick of it too...)
           </p>
           <p>
-            What's even more time consuming is the fact that you are studying
-            what health benefits will this activity have for your residents.
+            You even study what health benefits will this activity have for your
+            residents, even though it consumes so much of your time and energy.
           </p>
-          <p>All the while, Peter is throwing a fit again...</p>
+          <p>...All the while, Peter is throwing a fit again...</p>
           <p>
             We understand that you can be underappreciated at times compared to
             how much work is involved.
