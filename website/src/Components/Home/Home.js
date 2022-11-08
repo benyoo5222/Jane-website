@@ -63,6 +63,15 @@ const Home = () => {
               <p className="navigation-side-menu-text">Hire Jane</p>
             </Link>
           </div>
+
+          <div className="navigation-side-menu-link-text-container">
+            <Link
+              to="/why-jane"
+              className="remove-text-decoration navigation-side-menu-text-container"
+            >
+              <p className="navigation-side-menu-text">Why Jane?</p>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

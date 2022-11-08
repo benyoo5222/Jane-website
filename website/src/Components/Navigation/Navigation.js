@@ -39,11 +39,21 @@ const Navigation = ({ handleMenu }) => {
 
         <div
           className={`navigation-larger-display-hire ${
-            location.pathname === "/hire-jane" ? "active nav-space-right" : null
+            location.pathname === "/hire-jane" ? "active" : null
           }`}
         >
           <Link to="/hire-jane" className={`remove-text-decoration`}>
             <p className={`navigation-larger-display-text `}>Hire Jane</p>
+          </Link>
+        </div>
+
+        <div
+          className={`navigation-larger-display-hire ${
+            location.pathname === "/why-jane" ? "active nav-space-right" : null
+          }`}
+        >
+          <Link to="/why-jane" className={`remove-text-decoration`}>
+            <p className={`navigation-larger-display-text `}>Why Jane?</p>
           </Link>
         </div>
       </div>

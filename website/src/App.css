@@ -49,6 +49,7 @@ div#root {
 /* Other Pages - Not Home */
 .other-pages-section {
   position: relative;
+  width: 100%;
 }
 
 /* Other Pages Section Veil */

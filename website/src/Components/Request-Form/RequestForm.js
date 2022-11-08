@@ -350,15 +350,14 @@ const RequestForm = () => {
         <section className="request-form-detail-container request-top-space">
           <p className="request-form-detail">
             <span>
-              If you are looking to entertain and bring joy to your nursing
+              If you are looking to entertain and bring joy to your retirement
               home, we look forward to sharing Jane's music with you!
             </span>
+
             <span className="request-form-detail-text">
-              Jane can currently perform live in the Kitchener-Waterloo region.
-            </span>
-            <span className="request-form-detail-text">
-              For Online performances, she can work with anyone in Canada. See
-              You Soon!
+              She can work with anyone in Canada, but she can only accept the
+              first 20 clients. Please don't hesitate to reach out and ask any
+              questions! See You Soon!
             </span>
           </p>
 

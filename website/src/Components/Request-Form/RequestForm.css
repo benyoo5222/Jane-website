@@ -178,9 +178,9 @@
   }
 
   .request-form-submit-button-disabled {
-    font-size: 0.75rem;
-    height: 30px;
-    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    padding: 0.7rem 1rem;
   }
 
   .request-form-detail-text {
@@ -262,7 +262,7 @@
   }
 
   .request-form-submit-button-disabled {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     height: 30px;
     margin-top: 10px;
   }
@@ -346,7 +346,7 @@
   }
 
   .request-form-submit-button-disabled {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     height: 30px;
     margin-top: 10px;
   }

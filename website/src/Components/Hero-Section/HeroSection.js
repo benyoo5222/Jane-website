@@ -10,11 +10,11 @@ const HeroSection = ({ handleMenu }) => {
 
       <div className="hero-section-text-container">
         <h1 className="hero-section-text-headline">
-          Lover of Music with 20+ years of experience in Piano & Singing
+          Lover of Music with 40+ years of experience in Piano & Singing
         </h1>
         <h2 className="hero-section-text-subheadline">
-          If you are looking to entertain your members at your nursing home or
-          at your long term care facility, book Jane today!
+          If you are looking to entertain your residents at your nursing home or
+          at your retirement home, book Jane today!
         </h2>
       </div>
 
@@ -25,11 +25,11 @@ const HeroSection = ({ handleMenu }) => {
 
       <div className="hero-section-text-button-container-large-display">
         <h1 className="hero-section-text-headline-large-display">
-          Lover of Music with 20+ years of experience in Piano & Singing
+          Lover of Music with 40+ years of experience in Piano & Singing
         </h1>
         <h2 className="hero-section-text-subheadline-large-display">
-          If you are looking to entertain your members at your nursing home or
-          at your long term care facility, book Jane today!
+          If you are looking to entertain your residents at your nursing home or
+          at your retirement home, book Jane today!
         </h2>
 
         <ActionButton
