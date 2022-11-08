@@ -56,12 +56,12 @@ const WhyJane = () => {
             exercise.
           </p>
           <p>
-            You research for hours and hours for new activities because both you
-            and the residents are sick of playing bingo for the 100th time.
+            You spend hours researching for new activities because both you and
+            the residents are sick of playing bingo for the 100th time.
           </p>
           <p>
-            You even look for activities based on health benefits for each
-            individual resident.
+            And because you care for the residents, you even look for activities
+            based on health benefits, such as improving memory.
           </p>
           <p>...All the while, Peter is throwing a fit again...</p>
           <p>
@@ -124,9 +124,6 @@ const WhyJane = () => {
                 reminisce about their youth (Nostolgia).
               </li>
               <li>Reduce stress levels and make resident's happier</li>
-              <li>
-                It's a fun social event where everyone can enjoy and share!
-              </li>
               <li>Improves speech and concentration</li>
               <li>Improves memory and recall</li>
             </ol>
@@ -231,9 +228,9 @@ const WhyJane = () => {
           </p>
 
           <p>
-            If you want to see Jane's work, please feel free to check her{" "}
+            If you want to see Jane's work, please feel free to check out her{" "}
             <a href="https://www.youtube.com/watch?v=wwNOD-b45eM">Youtube</a>{" "}
-            Page out! Her most popular{" "}
+            Page! Her most popular{" "}
             <a href="https://www.youtube.com/watch?v=oRQBDYv2ll8">
               performance
             </a>{" "}
