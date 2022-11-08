@@ -56,13 +56,12 @@ const WhyJane = () => {
             exercise.
           </p>
           <p>
-            You research for hours and hours for new activities because there is
-            a voice at the back of your head, whispering, that the residents
-            will get sick of bingo soon. (You might be sick of it too...)
+            You research for hours and hours for new activities because both you
+            and the residents are sick of playing bingo for the 100th time.
           </p>
           <p>
-            You even study what health benefits will this activity have for your
-            residents, even though it consumes so much of your time and energy.
+            You even look for activities based on health benefits for each
+            individual resident.
           </p>
           <p>...All the while, Peter is throwing a fit again...</p>
           <p>
@@ -130,7 +129,6 @@ const WhyJane = () => {
               </li>
               <li>Improves speech and concentration</li>
               <li>Improves memory and recall</li>
-              <li>Even promoting faster healing</li>
             </ol>
             <p>This is why Jane focuses on playing light classics.</p>
             <p>
@@ -160,9 +158,7 @@ const WhyJane = () => {
               <strong>Is it in person or online?</strong>
             </p>
             <p>Jane currently only performs online through Zoom.</p>
-            <p>
-              This is so that she can make sure that the residents are safe.
-            </p>
+            <p>This makes sure that both Jane and the residents are safe.</p>
             <p>
               It also makes coordinating with you so much easier! Instead of
               preparing a piano, a mircophone, and a speaker, all you have to do
