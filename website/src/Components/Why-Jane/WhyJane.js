@@ -89,10 +89,10 @@ const WhyJane = () => {
             music professor and as a singer in an opera.
           </p>
           <p>
-            Now she focuses on playing 40's, 50's, and 60's music to bring joy
-            and nostalgia for seniors. By playing songs that seniors remember
-            from their youth, it allows them to travel back in time and remember
-            the good old days.
+            Now she focuses on playing light classics to bring joy and nostalgia
+            for seniors. By playing songs that seniors remember from their
+            youth, it allows them to travel back in time and remember the good
+            old days.
           </p>
 
           <p>
@@ -120,7 +120,7 @@ const WhyJane = () => {
             <ol className="music-benefits">
               <li>
                 Trigger memories and emotions from the past that allows them to
-                reminise about their youth (Nostolgia).
+                reminisce about their youth (Nostolgia).
               </li>
               <li>Reduce stress levels and make resident's happier</li>
               <li>
@@ -130,27 +130,25 @@ const WhyJane = () => {
               <li>Improves memory and recall</li>
               <li>Even promoting faster healing</li>
             </ol>
-            <p>
-              This is why Jane focuses on playing 40's, 50's, and 60's music.
-            </p>
+            <p>This is why Jane focuses on playing light classics.</p>
             <p>
               By playing songs that the resident's will remember from their
-              youth, it will allow them to travel back in time and remember
-              their favourite memories!
+              youth, it allows them to travel back in time and remember their
+              favourite memories!
             </p>
             <article className="bonus">
               <strong>
-                Bonus #1: 50 songs from the 40's, 50's, and 60's that seniors
-                absolutely love! Curate the perfect playlist for your nursing
-                home! (We also have 15 songs picked out for you!){" "}
+                Bonus #1: 30 light classics that seniors absolutely love! Curate
+                the perfect playlist for your retirement home! (We also have 15
+                songs picked out for you!)
               </strong>
               <p>
                 We know that your residents want songs that they like and are
-                familiar with. So we will send you a list of 50 songs that were
-                popular during the 40's, 50's, and 60's that they might want to
-                hear. If it's hard to find out which songs that they like, we
-                also have our top 15 songs that we play at most retirement
-                homes.
+                familiar with. So we will send you a list of 30 songs that were
+                popular during their time. If you'd like, you and/or the
+                residents can choose 15 songs to be performed for the retirement
+                home. Or Jane can perform a pre-selected, top 15 songs for most
+                retirement homes!
               </p>
             </article>
           </section>
@@ -176,10 +174,13 @@ const WhyJane = () => {
             <article className="bonus">
               <strong>
                 Bonus #2: Free recorded playlist that's curated for seniors for
-                the first 20 clients! * Play 40's, 50's, and 60's music for your
-                residents!
+                the first 20 clients! * Play music that your residents will love
+                whenever they want!
               </strong>
-              <p>Play these songs for your resident whenever you want!</p>
+              <p>
+                Jane will update this list whenever she finds a new song that
+                seniors might like!
+              </p>
             </article>
           </section>
 
@@ -225,6 +226,21 @@ const WhyJane = () => {
               do not pay. No questions asked!
             </p>
           </section>
+
+          <p>
+            If you have any questions, please don't hesitate to ask us in the
+            request form! We will get back to you in 1 business day.
+          </p>
+
+          <p>
+            If you want to see Jane's work, please feel free to check her{" "}
+            <a href="https://www.youtube.com/watch?v=wwNOD-b45eM">Youtube</a>{" "}
+            Page out! Her most popular{" "}
+            <a href="https://www.youtube.com/watch?v=oRQBDYv2ll8">
+              performance
+            </a>{" "}
+            has over 25,000+ views!
+          </p>
 
           <ActionButton
             buttonText={"Hire Jane for Your Retirement Home!"}

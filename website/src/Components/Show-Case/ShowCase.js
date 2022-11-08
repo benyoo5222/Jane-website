@@ -38,12 +38,12 @@ const ShowCase = () => {
               <h4 className="showcase-work-title">Most Viewed Video</h4>
             </a>
 
-            <h5 className="showcase-work-sub-title">24,000+ Views</h5>
+            <h5 className="showcase-work-sub-title">25,000+ Views</h5>
 
             <p className="showcase-work-description">
               For more than a century, the Bridal Chorus from Wagner’s opera
               Lohengrin, often called “Here Comes The Bride”, has been the most
-              popular processional.
+              popular processional. 25,000+ Views.
             </p>
           </article>
         </section>
@@ -87,6 +87,69 @@ const ShowCase = () => {
 
         <section className="showcase-work-picture-text-container">
           <a
+            href="https://www.youtube.com/watch?v=N4XnZmdc7W0&list=PLHoveutO9DW164nyhmogS-MJNuCZ0s48E"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="showcase-image-link"
+          >
+            <img
+              alt="Pink flower beside a bible"
+              src="/bible-large.jpg"
+              className="showcase-work-image"
+            />
+          </a>
+
+          <article className="showcase-work-text-container">
+            <a
+              href="https://www.youtube.com/watch?v=N4XnZmdc7W0&list=PLHoveutO9DW164nyhmogS-MJNuCZ0s48E"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="showcase-work-title">Church/Psalms</h4>
+            </a>
+
+            <h5 className="showcase-work-sub-title">Church Music</h5>
+
+            <p className="showcase-work-description">
+              From Silent Night to Away in a Manger, to Responsorial Psalms.
+              Enjoy church music being played on an organ, or on a piano.
+            </p>
+          </article>
+        </section>
+
+        <section className="showcase-work-picture-text-container">
+          <a
+            href="https://www.youtube.com/watch?v=s1J9HjK6Bzs&list=PLHoveutO9DW0gg3MntQIqqv-6iLb7q3DL"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="showcase-image-link2"
+          >
+            <img
+              alt="Tulip flowers"
+              src="/lily-large.jpg"
+              className="showcase-work-image2"
+            />
+          </a>
+
+          <article className="showcase-work-text-container2">
+            <a
+              href="https://www.youtube.com/watch?v=s1J9HjK6Bzs&list=PLHoveutO9DW0gg3MntQIqqv-6iLb7q3DL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="showcase-work-title">Much More!</h4>
+            </a>
+
+            <h5 className="showcase-work-sub-title">Other Fun Music</h5>
+
+            <p className="showcase-work-description">
+              Check out more of Jane’s music!
+            </p>
+          </article>
+        </section>
+
+        <section className="showcase-work-picture-text-container last-showcase-container">
+          <a
             href="https://www.youtube.com/watch?v=35FRpB49xgM&list=PLHoveutO9DW0OYHEg91Kl8quL8YZDWnQq"
             target="_blank"
             rel="noopener noreferrer"
@@ -118,69 +181,6 @@ const ShowCase = () => {
             <p className="showcase-work-description">
               You can listen to beautiful wedding songs like Canon in D,
               Gertrude’s Dream Waltz, Minuet, and others.
-            </p>
-          </article>
-        </section>
-
-        <section className="showcase-work-picture-text-container">
-          <a
-            href="https://www.youtube.com/watch?v=N4XnZmdc7W0&list=PLHoveutO9DW164nyhmogS-MJNuCZ0s48E"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="showcase-image-link2"
-          >
-            <img
-              alt="Pink flower beside a bible"
-              src="/bible-large.jpg"
-              className="showcase-work-image2"
-            />
-          </a>
-
-          <article className="showcase-work-text-container2">
-            <a
-              href="https://www.youtube.com/watch?v=N4XnZmdc7W0&list=PLHoveutO9DW164nyhmogS-MJNuCZ0s48E"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 className="showcase-work-title">Church/Psalms</h4>
-            </a>
-
-            <h5 className="showcase-work-sub-title">Church Music</h5>
-
-            <p className="showcase-work-description">
-              From Silent Night to Away in a Manger, to Responsorial Psalms.
-              Enjoy church music being played on an organ, or on a piano.
-            </p>
-          </article>
-        </section>
-
-        <section className="showcase-work-picture-text-container last-showcase-container">
-          <a
-            href="https://www.youtube.com/watch?v=s1J9HjK6Bzs&list=PLHoveutO9DW0gg3MntQIqqv-6iLb7q3DL"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="showcase-image-link"
-          >
-            <img
-              alt="Tulip flowers"
-              src="/lily-large.jpg"
-              className="showcase-work-image"
-            />
-          </a>
-
-          <article className="showcase-work-text-container">
-            <a
-              href="https://www.youtube.com/watch?v=s1J9HjK6Bzs&list=PLHoveutO9DW0gg3MntQIqqv-6iLb7q3DL"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 className="showcase-work-title">Much More!</h4>
-            </a>
-
-            <h5 className="showcase-work-sub-title">Other Fun Music</h5>
-
-            <p className="showcase-work-description">
-              Check out more of Jane’s music!
             </p>
           </article>
         </section>
