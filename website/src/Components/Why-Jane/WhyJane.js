@@ -50,18 +50,14 @@ const WhyJane = () => {
             hard.
           </p>
           <p>
-            You (activity/recreational therapy directors) are constantly
-            thinking about how to incorporate 30 minutes of physical activities
-            a day for Susan, while making sure everyone else can do the
-            exercise.
+            You (activity/recreational therapy director) are constantly thinking
+            about how to incorporate 30 minutes of physical activities a day for
+            Susan, while making sure everyone else can do the exercise.
           </p>
           <p>
-            You spend hours researching for new activities because both you and
-            the residents are sick of playing bingo for the 100th time.
-          </p>
-          <p>
-            And because you care for the residents, you even look for activities
-            based on health benefits, such as improving memory.
+            And because both you and the residents are sick of playing bingo for
+            the 100th time, you spend hours upon hours researching for new
+            activities.
           </p>
           <p>...All the while, Peter is throwing a fit again...</p>
           <p>
@@ -71,14 +67,13 @@ const WhyJane = () => {
           <p>
             <strong>
               <u>But</u> what if you could have a day where your residents are
-              so happy that they are thanking you for such a fun, yet nostolgic
-              activity.
+              thanking you for such a fun, yet nostolgic activity.
             </strong>
           </p>
           <p>
             <strong>
               And because your residents are in such a good mood, your coworkers
-              are thanking you for making their jobs so much easier!
+              are also thanking you for making their jobs so much easier!
             </strong>
           </p>
           <p>
@@ -86,14 +81,15 @@ const WhyJane = () => {
             the entertainment for you!
           </p>
           <p>
-            <u>As a musician for over 40+ years</u>, she started her career as a
-            music professor and as a singer in an opera.
+            <u>As a musician for over 40+ years</u>, not only did she receive
+            her degree in music, but she was also a music teacher and trained as
+            a singer for the opera.
           </p>
           <p>
             Now she focuses on playing light classics to bring joy and nostalgia
-            for seniors. By playing songs that seniors remember from their
-            youth, it allows them to travel back in time and remember the good
-            old days.
+            for seniors. By playing songs that your residents will be familiar
+            with such as movie sound tracks, pop songs, folk songs, and hymns,
+            it will allow them to walk down memory lane.
           </p>
 
           <p>
@@ -123,15 +119,15 @@ const WhyJane = () => {
                 Trigger memories and emotions from the past that allows them to
                 reminisce about their youth (Nostolgia).
               </li>
-              <li>Reduce stress levels and make resident's happier</li>
+              <li>Reduce stress levels and make residents' happier</li>
               <li>Improves speech and concentration</li>
               <li>Improves memory and recall</li>
             </ol>
             <p>This is why Jane focuses on playing light classics.</p>
             <p>
-              By playing songs that the resident's will remember from their
-              youth, it allows them to travel back in time and remember their
-              favourite memories!
+              By playing songs that the residents' will be familiar with, it
+              allows them to travel back in time and remember their favourite
+              memories!
             </p>
             <article className="bonus">
               <strong>
@@ -141,11 +137,11 @@ const WhyJane = () => {
               </strong>
               <p>
                 We know that your residents want songs that they like and are
-                familiar with. So we will send you a list of 30 songs that were
-                popular during their time. If you'd like, you and/or the
-                residents can choose 15 songs to be performed for the retirement
-                home. Or Jane can perform a pre-selected, top 15 songs for most
-                retirement homes!
+                familiar with. So we will send you a list of 30 songs that you
+                can choose from to be performed for your retirement home! If
+                you'd like, you and/or the residents can choose 15 songs or Jane
+                can perform a pre-selected, top 15 songs for most retirement
+                homes!
               </p>
             </article>
           </section>
@@ -154,7 +150,7 @@ const WhyJane = () => {
             <p>
               <strong>Is it in person or online?</strong>
             </p>
-            <p>Jane currently only performs online through Zoom.</p>
+            <p>Jane currently only perform online through Zoom.</p>
             <p>This makes sure that both Jane and the residents are safe.</p>
             <p>
               It also makes coordinating with you so much easier! Instead of
