@@ -40,8 +40,8 @@ const WhyJane = () => {
 
       <main className="other-pages-body-container">
         <h3 className="other-pages-body-title why-jane-title-container">
-          Your co-workers will be thanking you for making their job easier
-          (Because your residents will be in such a good mood!)
+          Your co-workers will be thanking you for making their jobs so much
+          easier! (Because your residents will be in such a good mood!)
         </h3>
 
         <div className="why-jane-offer-container">
@@ -61,7 +61,7 @@ const WhyJane = () => {
           </p>
           <p>...All the while, Peter is throwing a fit again...</p>
           <p>
-            We understand that you can be underappreciated at times compared to
+            We understand that you can be under appreciated at times compared to
             how much work is involved.
           </p>
           <p>
@@ -81,16 +81,25 @@ const WhyJane = () => {
             the entertainment for you!
           </p>
           <p>
-            <u>As a musician for over 40+ years</u>, not only did she receive
-            her degree in music, but she was also a music teacher and trained as
-            a singer for the opera.
+            <u>As a musician for over 40+ years</u>, she started her career as a
+            music teacher, after receiving her degree in music. Additionally,
+            she trained as a singer for the opera.
           </p>
           <p>
-            Now she focuses on playing light classics to bring joy and nostalgia
-            for seniors. By playing songs that your residents will be familiar
-            with such as movie sound tracks, pop songs, folk songs, and hymns,
-            it will allow them to walk down memory lane.
+            Now she focuses on playing light classics (check out one of her
+            performances right below!) to bring joy and nostalgia for seniors.
+            By playing songs that your residents will be familiar with such as
+            movie sound tracks, pop songs, folk songs, and hymns, it will allow
+            them to walk down memory lane.
           </p>
+
+          <div className="showcase-larger-main-container main-video-why-jane">
+            <iframe
+              title="Jane's most viewed video - Here Comes the Bride"
+              src="https://www.youtube.com/embed/s1J9HjK6Bzs"
+              className="showcase-main-video"
+            ></iframe>
+          </div>
 
           <p>
             <strong>
@@ -137,12 +146,17 @@ const WhyJane = () => {
               </strong>
               <p>
                 We know that your residents want songs that they like and are
-                familiar with. So we will send you a list of 30 songs that you
-                can choose from to be performed for your retirement home! If
-                you'd like, you and/or the residents can choose 15 songs or Jane
-                can perform a pre-selected, top 15 songs for most retirement
-                homes!
+                familiar with. If you'd like, you and/or the residents can
+                choose 15 songs or Jane can perform a pre-selected, top 15 songs
+                for most retirement homes!
               </p>
+              <div className="music-playlist-container">
+                <img
+                  src="/music_list.png"
+                  className="music-playlist"
+                  alt="Music Playlist"
+                ></img>
+              </div>
             </article>
           </section>
 
@@ -150,7 +164,7 @@ const WhyJane = () => {
             <p>
               <strong>Is it in person or online?</strong>
             </p>
-            <p>Jane currently only perform online through Zoom.</p>
+            <p>Jane currently performs online only through Zoom.</p>
             <p>This makes sure that both Jane and the residents are safe.</p>
             <p>
               It also makes coordinating with you so much easier! Instead of

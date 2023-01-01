@@ -42,6 +42,21 @@
   border-bottom: 1px dotted black;
 }
 
+.music-playlist-container {
+  display: flex;
+  justify-content: center;
+}
+
+img.music-playlist {
+  width: 90%;
+  max-width: 600px;
+}
+
+.main-video-why-jane {
+  padding-bottom: 0;
+  margin: 1em 0;
+}
+
 @media (min-width: 1150px) {
   .why-jane-offer-container {
     padding: 0 5% 5% 5%;
